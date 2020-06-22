@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIELD</title>
+</head>
+
+<body align="center">
+    <form action="/field">
+        <input type="hidden" value="callRefresh" name="callRefresh">
+        <input type="submit" value="Refresh">
+    </form>
+
+    <br/><br/> {{ range . }}
+    <tr>
+        <td>BOT NUMBER: {{.Name}}<br/> STACK: {{.Stack}}<br/> ATTACK: {{.Atk}}<br/> DEFENSE: {{.Def}}
+            <br/><a href="/war">BATTLE</a></td>
+    </tr>
+    <br/><br/> {{ end }}
+</body>
+
+</html>
