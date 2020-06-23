@@ -6,7 +6,7 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	"math/rand" //เดะมาทำให้การ random ดีขึ้น
+	"math/rand"
 	"net/http"
 	"strconv"
 	"text/template"
