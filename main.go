@@ -1,6 +1,6 @@
 package main
 
-// ยังเขียนไม่เสร็จนะครับ
+// ยังเขียนไม่เสร็จครับ
 
 import (
 	"database/sql"
